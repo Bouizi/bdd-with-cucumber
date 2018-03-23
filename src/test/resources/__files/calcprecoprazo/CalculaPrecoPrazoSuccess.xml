@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Servicos>
+    <cServico>
+        <Codigo>40010</Codigo>
+        <Valor>63,65</Valor>
+        <PrazoEntrega>2</PrazoEntrega>
+        <ValorSemAdicionais>51,60</ValorSemAdicionais>
+        <ValorMaoPropria>5,50</ValorMaoPropria>
+        <ValorAvisoRecebimento>4,30</ValorAvisoRecebimento>
+        <ValorValorDeclarado>2,25</ValorValorDeclarado>
+        <EntregaDomiciliar>S</EntregaDomiciliar>
+        <EntregaSabado>S</EntregaSabado>
+        <Erro>0</Erro>
+        <MsgErro></MsgErro>
+    </cServico>
+</Servicos>

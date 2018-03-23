@@ -1,0 +1,91 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+<soapenv:Header>
+<X-OPNET-Transaction-Trace:X-OPNET-Transaction-Trace xmlns:X-OPNET-Transaction-Trace="http://opnet.com">pid=31126,requestid=f077574bd2d2418ef05e0cfe7d61c31ed482b9f0bd13e83d</X-OPNET-Transaction-Trace:X-OPNET-Transaction-Trace>
+</soapenv:Header>
+<soapenv:Body>
+<ns2:buscaEventosResponse xmlns:ns2="http://resource.webservice.correios.com.br/">
+<return>
+<versao>2.0</versao>
+<qtd>1</qtd>
+<objeto>
+<numero>DU553211637BR</numero>
+<sigla>DU</sigla>
+<nome>ENCOMENDA E-SEDEX</nome>
+<categoria>E-SEDEX</categoria>
+<evento>
+<tipo>BDE</tipo>
+<status>01</status>
+<data>12/07/2016</data>
+<hora>19:52</hora>
+<descricao>Objeto entregue ao destinatário</descricao>
+<recebedor></recebedor>
+<documento></documento>
+<comentario></comentario>
+<local>CEE AMERICANA</local>
+<codigo>13466971</codigo>
+<cidade>Americana</cidade>
+<uf>SP</uf>
+</evento>
+<evento>
+<tipo>OEC</tipo>
+<status>01</status>
+<data>12/07/2016</data>
+<hora>13:02</hora>
+<descricao>Objeto saiu para entrega ao destinatário</descricao>
+<local>CEE AMERICANA</local>
+<codigo>13466971</codigo>
+<cidade>Americana</cidade>
+<uf>SP</uf>
+</evento>
+<evento>
+<tipo>DO</tipo>
+<status>01</status>
+<data>11/07/2016</data>
+<hora>22:51</hora>
+<descricao>Objeto encaminhado</descricao>
+<local>CTE VILA MARIA</local>
+<codigo>02170975</codigo>
+<cidade>Sao Paulo</cidade>
+<uf>SP</uf>
+<destino>
+<local>CTE CAMPINAS</local>
+<codigo>13050971</codigo>
+<cidade>Valinhos</cidade>
+<bairro>Macuco</bairro>
+<uf>SP</uf>
+</destino>
+</evento>
+<evento>
+<tipo>RO</tipo>
+<status>01</status>
+<data>11/07/2016</data>
+<hora>18:22</hora>
+<descricao>Objeto encaminhado</descricao>
+<local>AGF JARDIM BOM CLIMA</local>
+<codigo>07113971</codigo>
+<cidade>Guarulhos</cidade>
+<uf>SP</uf>
+<destino>
+<local>CTE VILA MARIA</local>
+<codigo>02170975</codigo>
+<cidade>Sao Paulo</cidade>
+<bairro>Parque Novo Mundo</bairro>
+<uf>SP</uf>
+</destino>
+</evento>
+<evento>
+<tipo>PO</tipo>
+<status>01</status>
+<data>11/07/2016</data>
+<hora>17:01</hora>
+<descricao>Objeto postado</descricao>
+<local>AGF JARDIM BOM CLIMA</local>
+<codigo>07113971</codigo>
+<cidade>Guarulhos</cidade>
+<uf>SP</uf>
+</evento>
+</objeto>
+</return>
+</ns2:buscaEventosResponse>
+</soapenv:Body>
+</soapenv:Envelope>

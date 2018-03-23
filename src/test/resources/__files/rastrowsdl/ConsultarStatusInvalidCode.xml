@@ -1,0 +1,17 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+<soapenv:Header>
+<X-OPNET-Transaction-Trace:X-OPNET-Transaction-Trace xmlns:X-OPNET-Transaction-Trace="http://opnet.com">pid=58091,requestid=d2d58f95670647b042b74a3a93515e4b3adeb2a7b1bc0b0d</X-OPNET-Transaction-Trace:X-OPNET-Transaction-Trace>
+</soapenv:Header>
+<soapenv:Body>
+<ns2:buscaEventosResponse xmlns:ns2="http://resource.webservice.correios.com.br/">
+<return>
+<versao>2.0</versao>
+<qtd>1</qtd>
+<objeto>
+<numero>JF598971235BR</numero>
+<erro>Objeto não encontrado na base de dados dos Correios.</erro>
+</objeto>
+</return>
+</ns2:buscaEventosResponse>
+</soapenv:Body>
+</soapenv:Envelope>
